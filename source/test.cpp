@@ -1,27 +1,28 @@
 #include <stdio.h>
 #include <iostream>
-
+#include "windows.h"
 int main() {
 	setlocale(LC_ALL, "RU");
 	int rodip;
-	printf("напиши число\n");
+	printf("√≠≈ХƒПƒН≈ЩƒН √ЈƒН≈Д√Ђ√Ѓ\n");
 	std::cin >> rodip;
 	switch (rodip) {
 	case 1488:
-		printf("ѕј—’јЋ ќ");
+		printf("ƒО≈Ф≈Г≈Р≈Ф√ЛƒШ√О");
 		break;
 	case 52:
-		printf("пидис€т два");
+		printf("ƒПƒН√§ƒН≈ДЋЩ≈И √§√Ґ≈Х");
 		break;
 	case 42:
-		printf("—ќ–ќ  ƒ¬ј Ѕ–ј“”’ј");
+		printf("≈Г√ОƒР√ОƒШ √Д√В≈Ф √БƒР≈Ф≈З√У≈Р≈Ф");
 		break;
 	case 320:
-			printf("Ўќ  Ў≈‘ ќ— 320 √");
+			printf("≈Ш√ОƒШ ≈Шƒє√Ф √О≈Г 320ƒШƒВ");
 			break;
 	case 522:
-		printf("€ нарисовал ето в пайнт € его назвал Ћ»Ќ” — 522 √");
+		printf("ЋЩ √≠≈ХƒСƒН≈Д√Ѓ√Ґ≈Х√Ђ ƒЇ≈И√Ѓ √Ґ ƒП≈Х√©√≠≈И ЋЩ ƒЇƒГ√Ѓ √≠≈Х√І√Ґ≈Х√Ђ √ЛƒМ√Н√УƒШ≈Г 522ƒШƒВ");
 		break;
 	}
+	sleep(1000)
 	return 0;
 }
